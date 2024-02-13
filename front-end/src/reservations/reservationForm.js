@@ -101,7 +101,7 @@ function ReservationForm({reservation}){
             Mobile number:
             <input
             id="mobile_number"
-            type="tel"
+            type="number"
             name="mobile_number"
             onChange={handleChange}
             value={formData.mobile_number}
